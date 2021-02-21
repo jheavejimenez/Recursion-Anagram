@@ -18,21 +18,5 @@ public class RecursionAnagram {
             anagram(newinput, newAnagram);
         }
     }
-    public static void main(String[] args)
-    {
-        Scanner s = new Scanner(System.in); 
-        String name = s.nextLine();
-        System.out.println("Full Name: "+ name);
-        
-        System.out.print("Enter the initial of your Fullname: ");
-        String init = s.nextLine();
-        s.close();
-        System.out.println("");
-        System.out.println("Here are all the anagrams of " + init);
-        
-        anagram("", init);
-        System.out.println("");
-
-        System.out.print("Thank You!");
-    }
+   
 }
